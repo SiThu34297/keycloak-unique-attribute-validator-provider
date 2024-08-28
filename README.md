@@ -1,0 +1,3 @@
+# Keycloak Unique Attribute Validator Provider
+
+The Keycloak Unique Attribute Validator Provider is a custom extension to Keycloak that allows administrators to enforce uniqueness constraints on user attributes. Keycloak, by default, doesn't enforce uniqueness on user attributes like email or username across the system or within specific realms unless it's explicitly configured. This provider helps to ensure that specific attributes are unique across all users or within certain contexts.
